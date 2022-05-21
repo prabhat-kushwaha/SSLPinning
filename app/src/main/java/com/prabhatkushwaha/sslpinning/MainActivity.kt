@@ -26,6 +26,7 @@ class MainActivity : AppCompatActivity() {
         /**
          * use this website to find cert public key by domain name
          * https://approov.io/tools/static-pinning/
+         * you can also find same with openssl
          */
         val certificatePin = CertificatePinner.Builder()
             .add("api.github.com", "sha256/uyPYgclc5Jt69vKu92vci6etcBDY8UNTyrHQZJpVoZY")
